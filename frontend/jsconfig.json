@@ -1,0 +1,7 @@
+{
+  "compilerOptions": {
+    "target": "ES2022", "module": "ESNext", "moduleResolution": "bundler", "jsx": "react-jsx",
+    "baseUrl": ".", "paths": { "@/*": ["./src/*"] }, "checkJs": false
+  },
+  "include": ["src"]
+}

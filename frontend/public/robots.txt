@@ -1,0 +1,11 @@
+User-agent: *
+Allow: /
+Disallow: /admin
+Disallow: /cart
+Disallow: /checkout
+Disallow: /account
+Disallow: /order/
+Disallow: /search
+Disallow: /api/
+
+Sitemap: https://upahars.in/sitemap.xml

@@ -1,0 +1,367 @@
+{
+ "categories": [
+  {
+   "name": "Handmade Products",
+   "slug": "handmade-products",
+   "sortOrder": 1
+  },
+  {
+   "name": "Home Décor",
+   "slug": "home-d-cor",
+   "sortOrder": 2
+  },
+  {
+   "name": "Wall Décor and Handcrafted Art",
+   "slug": "wall-d-cor-and-handcrafted-art",
+   "sortOrder": 3
+  },
+  {
+   "name": "Customized Gifts",
+   "slug": "customized-gifts",
+   "sortOrder": 4
+  },
+  {
+   "name": "Personalized Gift Hampers",
+   "slug": "personalized-gift-hampers",
+   "sortOrder": 5
+  },
+  {
+   "name": "Diwali Gifts and Festive Hampers",
+   "slug": "diwali-gifts-and-festive-hampers",
+   "sortOrder": 6
+  },
+  {
+   "name": "Decorative and Scented Candles",
+   "slug": "decorative-and-scented-candles",
+   "sortOrder": 7
+  },
+  {
+   "name": "Bulk Candle Orders",
+   "slug": "bulk-candle-orders",
+   "sortOrder": 8
+  },
+  {
+   "name": "Corporate and Bulk Gifting",
+   "slug": "corporate-and-bulk-gifting",
+   "sortOrder": 9
+  },
+  {
+   "name": "Handmade Gift Sets",
+   "slug": "handmade-gift-sets",
+   "sortOrder": 10
+  },
+  {
+   "name": "Eco-Friendly and Sustainable Gifts",
+   "slug": "eco-friendly-and-sustainable-gifts",
+   "sortOrder": 11
+  },
+  {
+   "name": "Festival Decorations",
+   "slug": "festival-decorations",
+   "sortOrder": 12
+  }
+ ],
+ "products": [
+  {
+   "title": "Handwoven Jute Wall Hanging",
+   "category": "wall-d-cor-and-handcrafted-art",
+   "pricePaise": 89900,
+   "compareAtPaise": 119900,
+   "productType": "decor",
+   "isCustomizable": false,
+   "tags": [
+    "trending",
+    "best"
+   ],
+   "description": "Handwoven Jute Wall Hanging. Handcrafted wall art that turns a plain wall into a story. (Demo description — replace with your real product details.)"
+  },
+  {
+   "title": "Hand-painted Terracotta Diya Set (12)",
+   "category": "diwali-gifts-and-festive-hampers",
+   "pricePaise": 34900,
+   "compareAtPaise": 44900,
+   "productType": "hamper",
+   "isCustomizable": false,
+   "tags": [
+    "trending",
+    "diwali",
+    "best"
+   ],
+   "description": "Hand-painted Terracotta Diya Set (12). Festive favourites to light up your Diwali. (Demo description — replace with your real product details.)"
+  },
+  {
+   "title": "Madhubani Art Serving Tray",
+   "category": "handmade-products",
+   "pricePaise": 119900,
+   "compareAtPaise": 149900,
+   "productType": "handmade",
+   "isCustomizable": false,
+   "tags": [
+    "trending"
+   ],
+   "description": "Madhubani Art Serving Tray. Crafted by hand by artisans in Odisha using traditional techniques. (Demo description — replace with your real product details.)"
+  },
+  {
+   "title": "Macramé Plant Hanger",
+   "category": "home-d-cor",
+   "pricePaise": 44900,
+   "compareAtPaise": 59900,
+   "productType": "decor",
+   "isCustomizable": false,
+   "tags": [
+    "trending",
+    "best"
+   ],
+   "description": "Macramé Plant Hanger. A handmade touch for living rooms, balconies and workspaces. (Demo description — replace with your real product details.)"
+  },
+  {
+   "title": "Pattachitra Painted Wall Frame",
+   "category": "wall-d-cor-and-handcrafted-art",
+   "pricePaise": 179900,
+   "compareAtPaise": 219900,
+   "productType": "decor",
+   "isCustomizable": false,
+   "tags": [
+    "trending"
+   ],
+   "description": "Pattachitra Painted Wall Frame. Handcrafted wall art that turns a plain wall into a story. (Demo description — replace with your real product details.)"
+  },
+  {
+   "title": "Dhokra Brass Elephant Figurine",
+   "category": "handmade-products",
+   "pricePaise": 129900,
+   "compareAtPaise": null,
+   "productType": "handmade",
+   "isCustomizable": false,
+   "tags": [
+    "trending"
+   ],
+   "description": "Dhokra Brass Elephant Figurine. Crafted by hand by artisans in Odisha using traditional techniques. (Demo description — replace with your real product details.)"
+  },
+  {
+   "title": "Jasmine Soy Wax Jar Candle",
+   "category": "decorative-and-scented-candles",
+   "pricePaise": 39900,
+   "compareAtPaise": 49900,
+   "productType": "candle",
+   "isCustomizable": false,
+   "tags": [
+    "candle",
+    "best"
+   ],
+   "description": "Jasmine Soy Wax Jar Candle. Hand-poured candles for gifting and for glowing evenings. (Demo description — replace with your real product details.)"
+  },
+  {
+   "title": "Rose Floating Candles (Set of 6)",
+   "category": "decorative-and-scented-candles",
+   "pricePaise": 27900,
+   "compareAtPaise": 34900,
+   "productType": "candle",
+   "isCustomizable": false,
+   "tags": [
+    "candle"
+   ],
+   "description": "Rose Floating Candles (Set of 6). Hand-poured candles for gifting and for glowing evenings. (Demo description — replace with your real product details.)"
+  },
+  {
+   "title": "Sandalwood Pillar Candle",
+   "category": "decorative-and-scented-candles",
+   "pricePaise": 39900,
+   "compareAtPaise": null,
+   "productType": "candle",
+   "isCustomizable": false,
+   "tags": [
+    "candle"
+   ],
+   "description": "Sandalwood Pillar Candle. Hand-poured candles for gifting and for glowing evenings. (Demo description — replace with your real product details.)"
+  },
+  {
+   "title": "Lavender Calm Travel Tin",
+   "category": "decorative-and-scented-candles",
+   "pricePaise": 19900,
+   "compareAtPaise": 24900,
+   "productType": "candle",
+   "isCustomizable": false,
+   "tags": [
+    "candle",
+    "best"
+   ],
+   "description": "Lavender Calm Travel Tin. Hand-poured candles for gifting and for glowing evenings. (Demo description — replace with your real product details.)"
+  },
+  {
+   "title": "Lotus Gel Candle",
+   "category": "decorative-and-scented-candles",
+   "pricePaise": 29900,
+   "compareAtPaise": null,
+   "productType": "candle",
+   "isCustomizable": false,
+   "tags": [
+    "candle"
+   ],
+   "description": "Lotus Gel Candle. Hand-poured candles for gifting and for glowing evenings. (Demo description — replace with your real product details.)"
+  },
+  {
+   "title": "Personalized Wooden Photo Frame",
+   "category": "customized-gifts",
+   "pricePaise": 79900,
+   "compareAtPaise": null,
+   "productType": "personalized",
+   "isCustomizable": true,
+   "tags": [
+    "custom",
+    "best"
+   ],
+   "description": "Personalized Wooden Photo Frame. Personalise it with a name or message — made to order in 3–5 working days. (Demo description — replace with your real product details.)"
+  },
+  {
+   "title": "Custom Name & Message Ceramic Mug",
+   "category": "customized-gifts",
+   "pricePaise": 32900,
+   "compareAtPaise": 39900,
+   "productType": "personalized",
+   "isCustomizable": true,
+   "tags": [
+    "custom"
+   ],
+   "description": "Custom Name & Message Ceramic Mug. Personalise it with a name or message — made to order in 3–5 working days. (Demo description — replace with your real product details.)"
+  },
+  {
+   "title": "Engraved Wooden Pen Set",
+   "category": "customized-gifts",
+   "pricePaise": 54900,
+   "compareAtPaise": null,
+   "productType": "personalized",
+   "isCustomizable": true,
+   "tags": [
+    "custom"
+   ],
+   "description": "Engraved Wooden Pen Set. Personalise it with a name or message — made to order in 3–5 working days. (Demo description — replace with your real product details.)"
+  },
+  {
+   "title": "Handcrafted Name Keychain",
+   "category": "customized-gifts",
+   "pricePaise": 14900,
+   "compareAtPaise": 19900,
+   "productType": "personalized",
+   "isCustomizable": true,
+   "tags": [
+    "custom"
+   ],
+   "description": "Handcrafted Name Keychain. Personalise it with a name or message — made to order in 3–5 working days. (Demo description — replace with your real product details.)"
+  },
+  {
+   "title": "Personalized Handmade-paper Journal",
+   "category": "customized-gifts",
+   "pricePaise": 54900,
+   "compareAtPaise": 64900,
+   "productType": "personalized",
+   "isCustomizable": true,
+   "tags": [
+    "custom",
+    "trending"
+   ],
+   "description": "Personalized Handmade-paper Journal. Personalise it with a name or message — made to order in 3–5 working days. (Demo description — replace with your real product details.)"
+  },
+  {
+   "title": "Diwali Grand Festive Hamper",
+   "category": "diwali-gifts-and-festive-hampers",
+   "pricePaise": 159900,
+   "compareAtPaise": 199900,
+   "productType": "hamper",
+   "isCustomizable": false,
+   "tags": [
+    "hamper",
+    "diwali",
+    "best"
+   ],
+   "description": "Diwali Grand Festive Hamper. Festive favourites to light up your Diwali. (Demo description — replace with your real product details.)"
+  },
+  {
+   "title": "Sweets & Diya Celebration Box",
+   "category": "diwali-gifts-and-festive-hampers",
+   "pricePaise": 109900,
+   "compareAtPaise": 129900,
+   "productType": "hamper",
+   "isCustomizable": false,
+   "tags": [
+    "hamper",
+    "diwali"
+   ],
+   "description": "Sweets & Diya Celebration Box. Festive favourites to light up your Diwali. (Demo description — replace with your real product details.)"
+  },
+  {
+   "title": "Self-care Wellness Hamper",
+   "category": "personalized-gift-hampers",
+   "pricePaise": 179900,
+   "compareAtPaise": null,
+   "productType": "hamper",
+   "isCustomizable": false,
+   "tags": [
+    "hamper"
+   ],
+   "description": "Self-care Wellness Hamper. A thoughtfully packed hamper, ready to gift. (Demo description — replace with your real product details.)"
+  },
+  {
+   "title": "Eco-friendly Gift Basket",
+   "category": "eco-friendly-and-sustainable-gifts",
+   "pricePaise": 129900,
+   "compareAtPaise": 149900,
+   "productType": "handmade",
+   "isCustomizable": false,
+   "tags": [
+    "hamper"
+   ],
+   "description": "Eco-friendly Gift Basket. Natural, reusable and plastic-light gifting. (Demo description — replace with your real product details.)"
+  },
+  {
+   "title": "Reusable Wooden Rangoli Stencil Kit",
+   "category": "festival-decorations",
+   "pricePaise": 54900,
+   "compareAtPaise": 69900,
+   "productType": "decor",
+   "isCustomizable": false,
+   "tags": [
+    "diwali",
+    "trending"
+   ],
+   "description": "Reusable Wooden Rangoli Stencil Kit. Decorations that make every festival feel special. (Demo description — replace with your real product details.)"
+  },
+  {
+   "title": "Marigold & Bead Door Toran",
+   "category": "festival-decorations",
+   "pricePaise": 39900,
+   "compareAtPaise": 49900,
+   "productType": "decor",
+   "isCustomizable": false,
+   "tags": [
+    "diwali",
+    "best"
+   ],
+   "description": "Marigold & Bead Door Toran. Decorations that make every festival feel special. (Demo description — replace with your real product details.)"
+  },
+  {
+   "title": "Brass Peacock Diya Lamp",
+   "category": "diwali-gifts-and-festive-hampers",
+   "pricePaise": 74900,
+   "compareAtPaise": 89900,
+   "productType": "hamper",
+   "isCustomizable": false,
+   "tags": [
+    "diwali"
+   ],
+   "description": "Brass Peacock Diya Lamp. Festive favourites to light up your Diwali. (Demo description — replace with your real product details.)"
+  },
+  {
+   "title": "Corporate Gift Box (min. 25)",
+   "category": "corporate-and-bulk-gifting",
+   "pricePaise": 89900,
+   "compareAtPaise": null,
+   "productType": "gift_box",
+   "isCustomizable": false,
+   "tags": [
+    "hamper"
+   ],
+   "description": "Corporate Gift Box (min. 25). Premium gift boxes with optional custom branding. (Demo description — replace with your real product details.)"
+  }
+ ]
+}
