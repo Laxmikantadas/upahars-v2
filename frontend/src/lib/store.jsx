@@ -1,5 +1,5 @@
 import { createContext, useCallback, useContext, useEffect, useMemo, useState } from 'react';
-import { CATEGORY_ICONS, DEMO_PRODUCTS, DEMO_SPECS } from '../data/demo';
+// import { CATEGORY_ICONS, DEMO_PRODUCTS, DEMO_SPECS } from '../data/demo';
 import { loadLiveCatalog, rupees } from './catalog';
 import { computeTotals } from './pricing';
 import { useAuth } from './auth';
@@ -69,17 +69,8 @@ export function StoreProvider({ children }) {
         catch { /* server unreachable: keep what we have (sample catalogue on first load) */ }
     }, []);
     useEffect(() => { void refreshCatalog(); }, [refreshCatalog]);
-    const products = useMemo(() => live ? live.products : DEMO_PRODUCTS.map((p) => {
-        const o = data.overrides[p.id] ?? {};
-        return {
-            ...p,
-            specs: DEMO_SPECS[p.id],
-            price: o.price ?? p.price,
-            salePrice: o.salePrice === null ? undefined : o.salePrice ?? p.salePrice,
-            inStock: o.inStock ?? true,
-        };
-    }), [data.overrides, live]);
-    const categories = useMemo(() => live ? live.categories : Object.entries(CATEGORY_ICONS).map(([name, icon]) => ({ name, slug: name, icon })), [live]);
+const products = useMemo(() => live ? live.products : [], [live]);
+const categories = useMemo(() => live ? live.categories : [], [live]);
     const offerCoupons = useMemo(() => live?.offers.map((o) => ({
         code: o.code, kind: o.type, value: o.type === 'percent' ? o.value : rupees(o.value), minPurchase: rupees(o.minOrderPaise), label: o.title || o.description,
     })), [live]);
@@ -162,11 +153,11 @@ export function StoreProvider({ children }) {
         })),
         setInquiryStatus: (id, status) => update((d) => ({ ...d, inquiries: d.inquiries.map((q) => (q.id === id ? { ...q, status } : q)) })),
         setOverride: (productId, o) => update((d) => ({ ...d, overrides: { ...d.overrides, [productId]: { ...d.overrides[productId], ...o } } })),
-        seedDemo: () => update((d) => ({
-            ...d,
-            orders: [...demoOrders(), ...d.orders.filter((o) => !o.id.startsWith('UPH-DEMO-'))],
-            inquiries: [...demoInquiries(), ...d.inquiries.filter((q) => !q.id.startsWith('BULK-DEMO-'))],
-        })),
+        // seedDemo: () => update((d) => ({
+        //     ...d,
+        //     orders: [...demoOrders(), ...d.orders.filter((o) => !o.id.startsWith('UPH-DEMO-'))],
+        //     inquiries: [...demoInquiries(), ...d.inquiries.filter((q) => !q.id.startsWith('BULK-DEMO-'))],
+        // })),
         resetAll: () => setData({ ...EMPTY }),
     };
     return <Ctx.Provider value={value}>{children}</Ctx.Provider>;

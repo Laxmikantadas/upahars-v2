@@ -19,7 +19,7 @@ import AdminCategories from './pages/admin/Categories';
 import AdminShowcase from './pages/admin/Showcase';
 import AdminCustomers from './pages/admin/Customers';
 import AdminInquiries from './pages/admin/Inquiries';
-import AdminDemo from './pages/admin/DemoData';
+// import AdminDemo from './pages/admin/DemoData';
 import AdminShipping from './pages/admin/Shipping';
 import Info from './pages/Info';
 import TermsAndConditions from './pages/TermsAndConditions';
@@ -43,7 +43,7 @@ export default function App() {
         <Route path="offers" element={<AdminOffers />}/>
         <Route path="customers" element={<AdminCustomers />}/>
         <Route path="inquiries" element={<AdminInquiries />}/>
-        <Route path="demo" element={<AdminDemo />}/>
+       
       </Route>
       <Route element={<Layout />}>
         <Route index element={<Home />}/>

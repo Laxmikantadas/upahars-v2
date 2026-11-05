@@ -104,7 +104,7 @@ export default function AdminLayout() {
           <p className="font-semibold text-burgundy-700">{current}</p>
           <span className="ml-auto flex flex-wrap items-center justify-end gap-2">
             <CourierChip />
-            <span className="rounded-full bg-gold/20 px-2.5 py-0.5 text-[11px] font-semibold text-burgundy-700">{isLive ? 'Live catalogue' : 'Demo mode'}</span>
+            <span className="rounded-full bg-gold/20 px-2.5 py-0.5 text-[11px] font-semibold text-burgundy-700">{isLive ? 'Live catalogue' : 'Server not connected'}</span>
           </span>
         </header>
         <CourierBanner />

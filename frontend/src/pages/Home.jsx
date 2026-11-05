@@ -87,7 +87,7 @@ const DEMO_SHOWCASE = [
 ];
 function Moments() {
     const { showcase, isLive } = useStore();
-    const slides = useMemo(() => (isLive ? showcase : DEMO_SHOWCASE).map((s, n) => ({
+    const slides = useMemo(() => (isLive ? showcase : []).map((s, n) => ({
         id: s.id, image: s.image || undefined, title: s.title, caption: s.caption || undefined, alt: s.title,
         palette: PALETTE_CYCLE[n % PALETTE_CYCLE.length], seed: n + 3,
     })), [showcase, isLive]);

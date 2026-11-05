@@ -11,6 +11,7 @@
     "start": "node src/index.js",
     "test": "vitest run",
     "seed": "node scripts/seed.js",
+    "clean-demo": "node scripts/clean-demo.js",
     "make-admin": "node scripts/make-admin.js",
     "test:sms": "node scripts/test-msg91.js"
   },
