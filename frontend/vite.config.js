@@ -16,7 +16,7 @@ export default defineConfig(({ mode }) => {
       port: 5173,
       // In development the browser talks to /api on the Vite server, which forwards to the backend.
       // Same-origin requests mean the login cookie just works (no CORS setup needed).
-      proxy: { '/api': { target: env.VITE_API_TARGET || 'http://localhost:5000', changeOrigin: false } },
+      proxy: { '/api': { target: env.VITE_API_TARGET || 'http://localhost:5000', changeOrigin:true } },
     },
   };
 });

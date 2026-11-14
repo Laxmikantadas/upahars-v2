@@ -14,7 +14,8 @@ const NAV = [
     { to: '/admin/offers', label: 'Offers', d: 'M20 12l-8 8-9-9V3h8zM7.5 7.5h.01' },
     { to: '/admin/customers', label: 'Customers', d: 'M16 11a4 4 0 10-8 0 4 4 0 008 0zM4 21a8 8 0 0116 0' },
     { to: '/admin/inquiries', label: 'Bulk inquiries', d: 'M4 4h16v12H8l-4 4zM8 9h8M8 12h5' },
-    { to: '/admin/demo', label: 'Demo data', d: 'M4 6c0-1.7 3.6-3 8-3s8 1.3 8 3-3.6 3-8 3-8-1.3-8-3zM4 6v6c0 1.7 3.6 3 8 3s8-1.3 8-3V6M4 12v6c0 1.7 3.6 3 8 3s8-1.3 8-3v-6' },
+    
+    // { to: '/admin/demo', label: 'Demo data', d: 'M4 6c0-1.7 3.6-3 8-3s8 1.3 8 3-3.6 3-8 3-8-1.3-8-3zM4 6v6c0 1.7 3.6 3 8 3s8-1.3 8-3V6M4 12v6c0 1.7 3.6 3 8 3s8-1.3 8-3v-6' },
 ];
 /** Header chip: courier token state + live countdown, on every admin page. Click = go to the Shipping page. */
 function CourierChip() {

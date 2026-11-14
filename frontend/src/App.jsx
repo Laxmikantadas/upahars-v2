@@ -25,6 +25,7 @@ import Info from './pages/Info';
 import TermsAndConditions from './pages/TermsAndConditions';
 import ComingSoon from './pages/ComingSoon';
 import { RouteSeo } from './components/Seo';
+
 export default function App() {
     return (<>
       <RouteSeo />
@@ -43,6 +44,7 @@ export default function App() {
         <Route path="offers" element={<AdminOffers />}/>
         <Route path="customers" element={<AdminCustomers />}/>
         <Route path="inquiries" element={<AdminInquiries />}/>
+        
        
       </Route>
       <Route element={<Layout />}>
