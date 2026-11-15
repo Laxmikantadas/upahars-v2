@@ -10,6 +10,7 @@ import { getRecent } from '../lib/recent';
 import { describeOffer, rupees } from '../lib/catalog';
 import { useStore } from '../lib/store';
 import PolaroidLineCarousel from '../components/ui/polaroid-line-carousel';
+import UpaharsHero from '../pages/heropages/UpaharsHero.jsx';
 // Fallback list used before the live (admin-managed) categories load.
 export const LAUNCH_CATEGORIES = Object.keys(CATEGORY_ICONS);
 /* ---------- 1. Hero carousel ---------- */
@@ -66,17 +67,17 @@ function Hero() {
     </section>);
 }
 /* ---------- trust strip ---------- */
-const TRUST = [
-    ['🤲', '100% handmade'], ['🚚', 'Pan-India delivery'], ['🔒', 'Secure online payment'], ['🎁', 'Free gift wrapping offers'],
-];
-function TrustStrip() {
-    return (<div className="border-y border-gold/30 bg-white/70">
-      <ul className="container-page grid grid-cols-2 gap-2 py-3 text-xs font-medium text-burgundy-700 md:grid-cols-4 md:text-sm">
-        {TRUST.map(([e, t]) => (<li key={t} className="flex items-center justify-center gap-2"><span className="text-lg">{e}</span>{t}</li>))}
-      </ul>
-    </div>);
-}
-/* ---------- polaroid carousel under the hero (pictures, names and descriptions come from Admin → Home carousel) ---------- */
+// const TRUST = [
+//     ['🤲', '100% handmade'], ['🚚', 'Pan-India delivery'], ['🔒', 'Secure online payment'], ['🎁', 'Free gift wrapping offers'],
+// ];
+// function TrustStrip() {
+//     return (<div className="border-y border-gold/30 bg-white/70">
+//       <ul className="container-page grid grid-cols-2 gap-2 py-3 text-xs font-medium text-burgundy-700 md:grid-cols-4 md:text-sm">
+//         {TRUST.map(([e, t]) => (<li key={t} className="flex items-center justify-center gap-2"><span className="text-lg">{e}</span>{t}</li>))}
+//       </ul>
+//     </div>);
+// }
+// /* ---------- polaroid carousel under the hero (pictures, names and descriptions come from Admin → Home carousel) ---------- */
 const PALETTE_CYCLE = ['dawn', 'dusk', 'mist', 'alpine'];
 // Shown only while the server is unreachable (demo mode); pictures are painted placeholders.
 const DEMO_SHOWCASE = [
@@ -291,8 +292,8 @@ export default function Home() {
     const { products, categories, isLive } = useStore();
     const byTag = (tag) => products.filter((p) => p.tags.includes(tag));
     return (<>
-      <Hero /> {/* 1 */}
-      <TrustStrip />
+      <UpaharsHero  /> 
+      {/* <TrustStrip /> */}
 
       <Moments />
 
